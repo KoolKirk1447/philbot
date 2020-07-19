@@ -52,7 +52,7 @@ Glue    Flex Glue
 Fix     Fixes your server```''')
         
     if message.content.startswith('phelp'):
-        await message.channel.send('''```This is the help section of Kool Kirk's Phil Swift Bot
+        await message.channel.send('''```This is the help section of Phil Swift Bot
 
 Ping    Pings me
 
