@@ -3,11 +3,12 @@
 import discord 
 from discord.ext import commands
 import random
-TOKEN = 'NzM0NDQyMDAyODM3NTM2ODU5.XxR0zw.WuGrTDcsjaglWpZ1BR5xeydFzc4'
+#enter your token at <your token here>
+TOKEN = '<your token here>'
 
 client = discord.Client()
 
-description = '''This is the help menu for Kool Kirk's Private bot'''
+description = '''Phil Swift here'''
 bot = commands.Bot(command_prefix='!', description=description)
 
 
@@ -36,11 +37,9 @@ async def on_message(message):
         await message.channel.send('''THAT'S ALOT OF DAMAGE''')
         
     if message.content.startswith('Phelp'):
-        await message.channel.send('''```This is the help section of Kool Kirk's Phil Swift Bot
+        await message.channel.send('''```This is the help section of Phil Swift Bot
 
 Ping    Pings me
-
-Info    show information about this bot
 
 Oof     THAT'S ALOT OF DAMAGE (don't need prefix)
 
@@ -59,8 +58,6 @@ Fix     Fixes your server```''')
 
 Ping    Pings me
 
-Info    show information about this bot
-
 Oof     THAT'S ALOT OF DAMAGE (don't need prefix)
 
 Tape    Flex tape
@@ -72,63 +69,12 @@ Space   Phil in Space
 Glue    Flex Glue
 
 Fix     Fixes your server```''')
-###########################################################      
-    if message.content.startswith('pcontact'):
-        await message.channel.send('''```Kool Kirk's discord is: Kool Kirk#1447```
-or you can goto his server https://discord.gg/fjRbXEZ
-`To see Kool Kirk's connections type PConnnect`''')
-        
-    if message.content.startswith('Pcontact'):
-        await message.channel.send('''```Kool Kirk's discord is: Kool Kirk#1447```
-or you can goto his server https://discord.gg/fjRbXEZ
-`To see Kool Kirk's connections type PConnnect`''')
-        
-    if message.content.startswith('pconnect'):
-        await message.channel.send('''Youtube- https://www.youtube.com/channel/UCJMNCysMg4EvaeiQ_vSoxuw
-Soundcloud- https://soundcloud.com/aaron-kirk-minecraftyman1''')
-        
-    if message.content.startswith('Pconnect'):
-        await message.channel.send('''Youtube- https://www.youtube.com/channel/UCJMNCysMg4EvaeiQ_vSoxuw
-Soundcloud- https://soundcloud.com/aaron-kirk-minecraftyman1''')
-##########################################################
-    if message.content.startswith('plog'):
-        await message.channel.send('''```Phil Swift was created```''')
-
-    if message.content.startswith('Plog'):
-        await message.channel.send('''```Phil Swift was created```''')
-
-    if message.content.startswith('Pversion'):
-        await message.channel.send('''```I am running Version 1.0```
-Type plog or Plog to see what was updated''')
-        
-    if message.content.startswith('pversion'):
-        await message.channel.send('''```I am running Version 1.0```
-Type plog or Plog to see what was updated''')
         
     if message.content.startswith('Pping'):
         await message.channel.send('''```Pong!```''')
         
     if message.content.startswith('pping'):
         await message.channel.send('''```Pong!```''')
-
-    if message.content.startswith('pinfo'):
-        await message.channel.send('''```here are the commands for information about the bot
-
-Version    Show what version that I am running on
-
-Log     Shows what was updated last
-
-Contact    Show how you can contact Kool Kirk for problems or recommendations```''')
-        
-        
-    if message.content.startswith('Pinfo'):
-        await message.channel.send('''```here are the commands for information about the bot
-
-Version    Show what version that I am running on
-
-Log     Shows what was updated last
-
-Contact    Show how you can contact Kool Kirk for problems or recommendations```''')
         
     if message.content.startswith('Ptape'):    
         await message.channel.send(file=discord.File('flextape.mp4'))
