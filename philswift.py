@@ -1,5 +1,3 @@
-#when someone says "oof" or "f" or "oooofff" or anything like that, make it say 'Now THAT'S a lotta damage!'
-#NzM0NDQyMDAyODM3NTM2ODU5.XxR0zw.WuGrTDcsjaglWpZ1BR5xeydFzc4
 import discord 
 from discord.ext import commands
 import random
